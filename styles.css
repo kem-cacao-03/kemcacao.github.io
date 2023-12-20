@@ -1,0 +1,77 @@
+:root{
+    --primary-color: #369ED8;
+    --secondary-color: #3188B6;
+    --bg-color: #F6FAFD;
+}
+
+.header{
+    background-color: var(--primary-color);
+}
+
+.logo{
+    height: 80px;
+    width: 80px;   
+}
+
+.cart{
+    background-color: var(--primary-color);
+}
+
+.banner-img{
+    width: 100%;
+}
+
+h2, h3, h6, h4{
+    color: var(--primary-color);
+}
+
+.text-color{
+    color:#3188B6;
+    text-decoration: none;
+    border-bottom: 2px solid var(--secondary-color);
+
+}
+
+.text-color:hover{
+    color: black;
+    border-bottom: 2px solid black;
+    
+}
+
+.card-img-top{
+    width: 50%;
+    transform: translate(50%);
+}
+
+.card-img-top.ami{
+    height: 60%;
+    object-fit: contain;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+}
+
+div.brand-story{
+    background-color: #3188B6;
+    text-align: center; 
+    margin: 0 auto;
+}
+
+h6.text-white{
+    opacity: 60%;
+}
+
+p.text-white{
+    opacity: 80%;
+}
+
+div.d-table-cell{
+    vertical-align: middle;
+}
+
+
+
+
+
